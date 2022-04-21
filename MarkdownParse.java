@@ -21,7 +21,7 @@ public class MarkdownParse {
             toReturn.add(markdown.substring(openParen + 1, closeParen));
             currentIndex = closeParen + 1;
             if (openBracket == -1) {
-                toReturn.add()
+                toReturn.add();
             }
             line++;
         }
