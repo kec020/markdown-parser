@@ -17,7 +17,7 @@ public class MarkdownParse {
         && markdown.substring(currentIndex, markdown.length()-1).contains("(")
         && markdown.substring(currentIndex, markdown.length()-1).contains(")")
         ) {
-            System.out.println(currentIndex);
+            // System.out.println(currentIndex);
             int openBracket = markdown.indexOf("[", currentIndex);
             int closeBracket = markdown.indexOf("]", openBracket);
             int openParen = markdown.indexOf("(", closeBracket);
@@ -31,7 +31,7 @@ public class MarkdownParse {
                 currentIndex = closeParen + 1;
             }
         }
-        System.out.println(currentIndex);
+        // System.out.println(currentIndex);
 
         return toReturn;
     }
