@@ -34,7 +34,6 @@ public class MarkdownParse {
             }
         }
         // System.out.println(currentIndex);
-
         return toReturn;
     }
 
