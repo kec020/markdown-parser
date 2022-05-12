@@ -9,7 +9,6 @@ public class MarkdownParseTest {
     public void addition() {
         assertEquals(2, 1 + 1);
     }
-
     @Test
     public void getLinks() throws IOException {
         String contents = Files.readString(Path.of("test-file.md"));
